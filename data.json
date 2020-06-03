@@ -1,0 +1,121 @@
+{
+  "products":[
+      {
+          "id":1,
+          "type":"pizza",
+          "name":"Farm pizza",
+          "img":"farm_pizza",
+          "description":"Ham, Potato, Mozzarella, Pickled cucumbers, Creamy sauce, Dill",
+          "Euro": 7.0000000000001,
+          "Dollars": 8.0000000000001
+      },
+      {
+          "id":2,
+          "type":"pizza",
+          "name":"BBQ with chicken",
+          "img":"bbq_chicken",
+          "description":"Chicken, Red Onion, Mozzarella, Pickled Cucumbers, Parsley, Satsebeli Sauce, Tomato Sauce",
+          "Euro": 5.0000000000001,
+          "Dollars": 6.0000000000001
+      },
+      {
+          "id":3,
+          "type":"pizza",
+          "name":"BBQ with pork",
+          "img":"bbq_pork",
+          "description":"Red onion, Mozzarella, Pickled cucumbers, Parsley, Pork, Satsebeli sauce, Tomato sauce",
+          "Euro": 5.5000000000001,
+          "Dollars": 6.5000000000001
+      },
+      {
+          "id":4,
+          "type":"pizza",
+          "name":"Pepperoni classic pizza",
+          "img":"peperoni_classic",
+          "description":"Mozzarella, Pepperoni, Tomato Pizza Sauce",
+          "Euro": 4.5000000000001,
+          "Dollars": 5.5000000000001
+      },
+      {
+        "id":5,
+        "type":"pizza",
+        "name":"Classic rustic pizza",
+        "img":"rustic_classic",
+        "description":"Bacon, Champignon mushrooms, Red onion, Mozzarella, Pork, Tomato pizza sauce, dill",
+        "Euro": 5.5000000000001,
+        "Dollars": 6.5000000000001
+    },
+    {
+        "id":6,
+        "type":"pizza",
+        "name":"Classic Barbecue Pizza",
+        "img":"bbq_classic",
+        "description":"Hunting sausages, Chicken, Mozzarella, Barbecue sauce, Tomato pizza sauce, dill",
+        "Euro": 5.7500000000001,
+        "Dollars": 6.7500000000001
+    },
+    {
+        "id":7,
+        "type":"pizza",
+        "name":"Pizza Four cheese classic",
+        "img":"4cheese",
+        "description":"Mozzarella, Creamy Pizza Sauce, Dor Blue Cheese, Parmesan Cheese, Cheddar Cheese",
+        "Euro": 5.000000000000,
+        "Dollars": 6.000000000000
+    },
+    {
+        "id":8,
+        "type":"pizza",
+        "name":"Pizza Tuscany branded",
+        "img":"tuscany",
+        "description":"Artichokes, Champignon Mushrooms, Green Onions, Mozzarella, Olives, Parsley, Pork",
+        "Euro": 7.2500000000001,
+        "Dollars": 8.5000000000001
+    },
+    {
+        "id":9,
+        "type":"pizza",
+        "name":"Pizza Bologna branded",
+        "img":"bologna",
+        "description":"Mozzarella, Parsley, Bolognese sauce (beef, pork, onions, tomatoes, celery)",
+        "Euro": 7.5000000000001,
+        "Dollars": 8.2500000000001
+    },
+    {
+        "id":10,
+        "type":"pizza",
+        "name":"Double Filled Pepperoni Pizza",
+        "img":"pepperoni_double",
+        "description":"Mozzarella, Pepperoni, Tomato Pizza Sauce",
+        "Euro": 8.0000000000001,
+        "Dollars": 7.0000000000001
+    },
+    {
+        "id":11,
+        "type":"set",
+        "name":"Golden Eagle",
+        "img":"golden_eagle",
+        "description":"Carbonara, Meat, Classic, Margarita, Hawaiian, Pepperoni, Pepsi 1L",
+        "Euro": 25.00000000001,
+        "Dollars": 29.00000000001
+    },
+    {
+        "id":12,
+        "type":"set",
+        "name":"Jackpot",
+        "img":"jackpot",
+        "description":"Mozzarella, Parsley, Bolognese sauce (beef, pork, onions, tomatoes, celery)",
+        "Euro": 15.5000000000001,
+        "Dollars": 19.2500000000001
+    },
+    {
+        "id":13,
+        "type":"drink",
+        "name":"Pepsi 1L",
+        "img":"pepsi",
+        "description":"Pepsi 1 L ",
+        "Euro": 1.5000000000001,
+        "Dollars": 2.2500000000001
+    }
+  ]   
+}

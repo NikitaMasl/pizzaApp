@@ -1,0 +1,451 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+li{
+    list-style-type: none;
+}
+
+aside{
+    width: 15vw;
+    min-width: 15vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    left: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+main{    
+    margin-left: 15vw;
+    position: relative;
+}
+
+header{
+    top: 0;
+    position: fixed;
+    margin-left: 15vw;
+    z-index: 10;
+    width: calc(100% - 15vw);
+    background-color: #161a22;
+    color: white;
+    padding: 10px;
+}
+.order-counter{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    bottom: -2px;
+    right: -8px;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.logo-img-aside{
+    padding: 3px;
+    overflow: hidden;
+}
+
+.logo-img-aside img{
+    width: 100%;
+}
+
+.tel-aside{
+    padding: 3px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.tel-aside a{
+    text-decoration: none;  
+    color:white  
+}
+
+.tel-aside a:hover{
+    text-decoration: none;
+    color:#ffcd00;
+}
+
+.tel-aside::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    background: white;
+}
+
+nav{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+.dollars{
+    margin-right: 1px;
+}
+.login-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    position: relative;
+    font-size: 20px;
+    transition: all .5s;
+}
+.login-container h5{
+    margin-bottom: 0 !important;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.login-container::after{
+    content: '';
+    display: block;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    background: #ffffff;
+    right: 0;
+}
+.login-container:hover {
+    color: #ffcd00;
+    cursor: pointer;
+}
+.cart-container{
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: all .5s;
+    color: white;
+    position: relative;
+}
+.cart-container:hover{
+    color: #ffcd00;
+    cursor: pointer; 
+}
+
+.menu-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav-sidebar{
+    text-align: center;
+}
+.links-siderbar{
+    color: white;
+    text-decoration: none;
+}
+.links-siderbar:hover{
+    color: white;
+    text-decoration: none;
+}
+.nav-sidebar ul{
+    width: 100%;
+}
+.nav-sidebar i{
+    font-size: 20px;
+}
+.nav-sidebar li{
+    margin-top: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+}
+.nav-sidebar li:hover{
+    cursor: pointer;
+}
+.nav-sidebar li i, .nav-sidebar li h4{
+    transition: all .5s;
+}
+.nav-sidebar li:hover i, .nav-sidebar li:hover h4{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.nav-sidebar li:hover:after{
+    width: 100%;
+}
+.nav-sidebar li::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    background:#ffcd00;
+    transition: all .5s;
+}
+.productlist-title{
+    width: 100%;
+    padding: 70px 40px 20px 40px;
+}
+.productlist-title::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0,0,0,0.125);
+}
+.title-productlist:first-letter{
+    text-transform: capitalize;
+}
+.productlist-container{
+    padding: 10px 0 20px 20px;
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+.productlist-container .card{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.table{
+    text-align: center;
+}
+.table p{
+    margin: 0;
+    font-size: 20px;
+}
+.table tr td{
+    align-self: center;
+    vertical-align: middle;
+    text-align: center;
+}
+.cart-section{
+    padding: 50px 0 20px 20px;
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    position: relative;
+}
+.cart-section h1{
+    margin-top: 50px;
+}
+.breadcrumb{
+    background-color: white !important;
+    position: absolute;
+    left: 0;
+}
+.breadcrumb ul li{
+    display: inline !important; 
+    margin-right: 5px;
+}
+.breadcrumb a{
+    color: black;
+    text-decoration: none;
+    transition: all .5s;
+}
+.breadcrumb a:hover{
+    text-decoration: none;
+    color:#ffcd00;
+    cursor: pointer;
+}
+.cart-products-list{
+    margin-top: 60px;
+    padding: 0 20px 0 0;
+    width: 100%;
+}
+.cartproduct{
+    width: 100%;
+    position: relative;
+    height: 82px;
+}
+.cartproduct:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.remove-btn{
+    color: black;
+    font-size: 30px;
+    transition: all .5s;
+}
+.cardproduct-body{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 15px 100px 10px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.text-wrapper{
+    width: 100px;
+}
+
+.text-wrapper p{
+    font-size: 15px;
+}
+.cardproduct-body th{   
+    font-weight: 500;
+}
+
+.cart-table{
+    height: 5rem;
+    width: 100%;
+}
+.final-bill{
+    border-top: 2px solid white;
+}
+.total-tr{
+    border-top: 2px solid black;
+}
+.counter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+.counter-container button{
+    height: 40px;
+}
+.cart-text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.number-container{
+    display: block;
+    height: 40px;
+    width: 50px;
+}
+.remove-btn:hover{
+    color:#ffcd00;
+    cursor: pointer;
+}
+.final-price-section{
+    padding: 0 0 20px 20px;
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    position: relative;
+}
+.final-bill{
+    padding: 0 40px 0 15px;
+    width: 100%;
+}
+.final-bill ul{
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+.final-bill ul li p{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+}
+.finall-cost::before{
+    content: '';
+    margin-bottom: 10px !important;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.overlay{
+    position: fixed;
+    overflow: auto;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.overlay .card{
+    width: 30vw;
+    position: relative;
+}
+.close-portal{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    font-size: 25px;
+    transition: all .5s;
+}
+.close-portal:hover{
+    cursor: pointer;
+    color: #ffcd00;
+}
+#portal-card .card-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.success-text{
+    display: none;
+    color: green;
+    font-size: 25px;
+}
+.background-black{
+    background: #000000 !important;
+}
+.btn p{
+    margin: 0;
+}
+.btn:disabled{
+    opacity: 1 !important;
+}
